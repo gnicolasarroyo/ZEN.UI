@@ -1,0 +1,56 @@
+// //
+// // Grid system
+// // Based on https://github.com/twbs/bootstrap
+// //--------------------------------------------------
+
+// /*
+//  * Container
+//  *
+//  * Utilizes the mixin meant for fixed width containers, but without any defined
+//  * width for fluid, full width layouts.
+//  *
+//  */
+
+.container
+  make-container()
+
+
+// /*
+//  * Row
+//  *
+//  * Rows contain and clear the floats of your columns.
+//  * 
+//  */
+
+.row
+  make-row()
+
+
+// /*
+//  * Columns
+//  *
+//  * Common styles for all grid columns
+//  *
+//  */
+$selectors = ''
+for $index in (1..$grid-columns)
+  $selectors += '.column-' + $index
+  if $index isnt $grid-columns
+    $selectors += ','
+{$selectors}
+  make-grid-columns()
+
+
+// Set Float Style
+{$selectors}
+  float-grid-columns()
+
+// Set Width percent per column
+for $index in (1..$grid-columns)
+  {'.column-' + $index}
+    width-grid-column($index)
+
+// Set Margin Left percent per column
+for $index in (1..($grid-columns - 1))
+  {'.column-offset-' + $index}
+    offset-grid-column($index)

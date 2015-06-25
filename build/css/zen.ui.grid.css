@@ -1,0 +1,9 @@
+/**
+ * ZEN.UI - A dead simple, responsive grid system.
+ * @source  zen.ui.grid.css
+ * @version v0.0.1
+ * @link    https://github.com/gnicolasarroyo/zen.ui.git
+ * @author  G. Nicolas Arroyo <g.nicolas.arroyo@gmail.com>
+ * @license MIT
+ */
+.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;}.container:before,.container:after{content:" ";display:table}.container:after{clear:both}.row{margin-left:-15px;margin-right:-15px;}.row:before,.row:after{content:" ";display:table}.row:after{clear:both}.column-1,.column-2,.column-3,.column-4,.column-5,.column-6,.column-7,.column-8,.column-9,.column-10,.column-11,.column-12{position:relative;min-height:1px}.column-1,.column-2,.column-3,.column-4,.column-5,.column-6,.column-7,.column-8,.column-9,.column-10,.column-11,.column-12{float:left}.column-1{width:8.333333333333332%}.column-2{width:16.666666666666664%}.column-3{width:25%}.column-4{width:33.33333333333333%}.column-5{width:41.66666666666667%}.column-6{width:50%}.column-7{width:58.333333333333336%}.column-8{width:66.66666666666666%}.column-9{width:75%}.column-10{width:83.33333333333334%}.column-11{width:91.66666666666666%}.column-12{width:100%}.column-offset-1{margin-left:8.333333333333332%}.column-offset-2{margin-left:16.666666666666664%}.column-offset-3{margin-left:25%}.column-offset-4{margin-left:33.33333333333333%}.column-offset-5{margin-left:41.66666666666667%}.column-offset-6{margin-left:50%}.column-offset-7{margin-left:58.333333333333336%}.column-offset-8{margin-left:66.66666666666666%}.column-offset-9{margin-left:75%}.column-offset-10{margin-left:83.33333333333334%}.column-offset-11{margin-left:91.66666666666666%}

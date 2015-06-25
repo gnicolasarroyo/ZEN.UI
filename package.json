@@ -1,0 +1,19 @@
+{
+  "name"        : "ZEN.UI",
+  "version"     : "0.0.1",
+  "description" : "A dead simple, responsive grid system.",
+  "author"      : "G. Nicolas Arroyo <g.nicolas.arroyo@gmail.com>",
+  "homepage"    : "https://github.com/gnicolasarroyo/zen.ui.git",
+  "license"     : "MIT",
+  "dependencies": {
+    "coffee-script": "^1.8.0"
+  },
+  "devDependencies" : {
+    "gulp"        : "*",
+    "gulp-concat" : "*",
+    "gulp-header" : "*",
+    "gulp-stylus" : "*",
+    "gulp-jade"   : "*",
+    "gulp-coffee" : "*"
+  }
+}
